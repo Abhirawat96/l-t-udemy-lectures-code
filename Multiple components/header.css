@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Manrope", sans-serif;
+    list-style: none;
+    text-decoration:none;
+  } 
+  
+  /*......Header section.......*/
+  
+  header {
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    top: -7%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    z-index: 1000;
+    background-color: white;
+  }
+  
+  .logo img {
+    max-width: 50px;
+    margin-right: 150px;
+    height: auto;
+    color: black;
+    font-size: 20px;
+  margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  
+  .logo1 h1{
+    margin-left:70px ;
+    font-size: 20px;
+    margin-top: -45px;
+    
+  }
+  
+  .logo1 h1:hover{
+    transition: all .52s ease;
+     transform: scale(1.1); 
+  
+  }
+  
+  
+  .navmenu {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .navmenu a {
+    color: black;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 40px;
+    font-weight:bolder;
+    
+  }
+  .navmenus {
+    background-color: rgb(5, 180, 5);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    transition: all .42s ease;
+  }
+  .navmenus:hover{
+    transform: scale(1.1);
+  
+  
+  }
+  

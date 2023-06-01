@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Manrope", sans-serif;
+    list-style: none;
+    text-decoration:none;
+  } 
+  
+.our {
+    position: relative;
+  }
+  
+  .team {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 20px;
+  }
+  
+  .team h1 {
+    color: #16c016;
+    font-size: 20px;
+    margin-left: 47%;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .team p {
+    font-size: 30px;
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    margin-left: 9%;
+    padding-top: 20px;
+    font-weight: 3;
+  }
+  
+  .peo1 {
+    position: absolute;
+    border: 2px solid #16c016;
+    border-radius: 16px;
+    width: 40%;
+    height: 90vh;
+    margin-top: 15%;
+    margin-left:8% ;
+    background-color: rgb(210, 255, 251);
+  }
+  .peo1 p{
+    margin-top:-600px;
+    margin-left: 70px;
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    font-weight: 3000;
+  
+  
+  }
+  .ppl1{
+    width: 107%;
+  }
+  
+  
+  .peo2{
+    position: absolute;
+    border: 2px solid #16c016;
+    border-radius: 16px;
+    width: 40%;
+    height: 90vh;
+    margin-top: 15%;
+    margin-left:50% ;
+    background-color: rgb(210, 255, 251);
+  
+  }
+  
+  .peo2 p{
+    margin-top:-600px;
+    margin-left: 400px;
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    font-weight: 3000;
+  }
+  .ppl2{
+    width: 85%;
+    margin-top: -110px;
+    padding-left: 20px;
+  }
+  
+  
+  .ppl-btn{
+    display: inline-block;
+    width: 10%;
+    height:7vh;
+    background-color: #16c016;
+    color: white;
+    border:2px ;
+    border-radius: 7px;
+    padding:15px 30px 30px 30px;
+    font-size: 17px;
+    font-family: "Manrope", sans-serif;
+      margin-top: 65%;
+      margin-left: 45%;
+      transition: all .42s ease;
+  }
+  
+  .ppl-btn:hover{
+    transform: scale(1.1);
+  }
+  
+  .ppl-btn:hover{
+    transition: all 0.42s ease-in-out;
+  
+  }
+  
+  

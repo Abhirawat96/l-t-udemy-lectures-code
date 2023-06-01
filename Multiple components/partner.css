@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Manrope", sans-serif;
+    list-style: none;
+    text-decoration:none;
+  } 
+
+
+
+.green {
+    position: relative;
+    background-color: #16c016;
+    display: flex;
+    height: 40vh;
+    width: 50;
+    align-items: center;
+  }
+  .item-flex{
+    position: absolute;
+    display: flex;
+    
+  
+  }
+  
+  .client{
+    padding-top: 30px ;
+  
+  
+  }
+  
+  .fa-solid {
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 17px;
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+  
+  .client h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200%;
+    padding: 15px 50px;
+    margin-left: 15px;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .client p {
+    color: black;
+    font-size: 25px;
+    font-weight: 200%;
+    margin: 5px 10px 40px 50px;
+    margin-left: 70px;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  
+  .pro{
+    position: absolute;
+    display: flex;
+    margin-left: 140%;
+    margin-top: 30px;
+  }
+  
+  
+  
+   
+    /* background-color: white;
+    color: black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+     margin-left: 100px; 
+    padding: 17px; */
+  
+  
+  .pro h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-top: 90px;
+    margin-left:-30% ;
+  
+  }
+  .pro p {
+    color: black;
+    font-size: 25px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-left:-29% ;
+    margin-top: 41%;
+  }
+  
+  .partner{
+    position: absolute;
+    display: flex;
+    margin-left: 280%;
+    margin-top: 30px;
+  
+  }
+  
+  .fa-regular{
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 17px;
+    margin-top: 20px;
+    margin-right: 80px;
+  
+  }
+   .partner p {
+    color: black;
+    font-size: 25px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-left:-29% ;
+    margin-top: 45%;
+  }
+   
+  
+   .partner h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-top: 90px;
+    margin-left:-36% ;
+   }
+  
+   .count{
+    position: absolute;
+    display: flex;
+    margin-left: 400%;
+    margin-top: 37px;
+   }
+  
+  
+   .count h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-top: 90px;
+    margin-left:-34% ;
+  } 
+  
+   .count p {
+    color: black;
+    font-size: 25px;
+    font-weight: 200%;
+    font-family: "Manrope", sans-serif;
+    margin-top: 40%;
+    margin-left:-20% ;
+    
+  }
