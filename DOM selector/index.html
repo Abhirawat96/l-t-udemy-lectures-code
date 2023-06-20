@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+  
+</head>
+<body>
+    <h1>SHopping list</h1>
+    <p id="first">get it done today</p>
+    <p class="second">no excuses</p>
+    <ul>
+        <li class="bold" random="23">notebooks</li>
+        <li>jello</li>
+        <li>books</li>
+        <li>pens</li>
+        <li>eraseer</li>
+        <li>pencil</li>
+    </ul>
+    <script>
+        // document.getElementById("first");
+        // document.getElementsByClassName("second");
+        // document.getElementsByTagName("h1");
+
+        // document.querySelector("h1")
+        // document.querySelectorAll("h1, li");
+
+
+        // ----this query used for getting attributes-----
+
+        // document.querySelector("li").getAttribute("random");
+// 
+         // ----this query used for set attributes means changing the value-----
+        
+    // document.querySelector("li").setAttribute("random","1000");
+
+    // document.querySelector("li");
+
+
+    // ##----changing the styles---##
+    // document.querySelector("h1").style.background = "yellow";
+   
+    // document.querySelector("h1");
+    // h1.className = "cooltitle";
+
+    //   document.querySelector("li").classList.add("bold");
+    //   document.querySelector("li").classList.remove("bold");
+    //   document.querySelector("li").classList.toggle("bold");
+    //   document.querySelector("li").classList.toggle("bold");
+
+
+    document.querySelector("h1").innerHTML="<strong>!!!</strong>";
+    document.querySelectorAll("li")[1].parentElement;
+document.querySelectorAll("li")[1].parentElement.parentElement;
+document.querySelectorAll("li")[1].parentElement.children;
+
+
+
+
+
+    </script>
+</body> 
+</html>
+
